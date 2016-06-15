@@ -1,0 +1,23 @@
+{
+    "name": "culinaire/bistro-core",
+    "description": "Bistro Core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "frankmccoy.d@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Bistro/Core/helpers.php"
+        ],
+        "psr-4": {
+            "Bistro\\": "src/Bistro/"
+        }
+    }
+}
